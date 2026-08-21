@@ -1,0 +1,14 @@
+{
+  "name": "T3 Code",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "dev",
+      "command": "export PATH=\"$HOME/.vite-plus/bin:$HOME/.nvm/versions/node/v24.13.1/bin:$PATH\" && npm run dev"
+    }
+  ],
+  "ports": [
+    { "name": "web", "port": 5733 },
+    { "name": "server", "port": 13773 }
+  ]
+}
